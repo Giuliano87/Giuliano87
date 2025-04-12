@@ -1,3 +1,4 @@
+-- Active: 1744182094834@@127.0.0.1@3306@exército_brasileiro
 produto_1 = 10
 produto_2 = 20
 
