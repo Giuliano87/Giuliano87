@@ -1,10 +1,17 @@
+def sacar(valor):
+    saldo = 1000
+    if saldo >= valor:
+        print("Seu saldo é de R$", saldo)
+        saldo -= valor
+        print("Saque de R$", valor, "efetuado com sucesso!")
+        print("Seu novo saldo é de R$", saldo)
+    
+    sacar(500)
 
-produto_1 = 10
-produto_2 = 20
-print(produto_1 + produto_2)  # 30
-print(10 - 5 * 2)  # 6
-print(10 ** (2 * 2))  # 10000
-print(10 ** 2 * 2)  # 400
-print(10 / 2 * 4)  # 8.0    
-print(10/2*4); 
+        
+  
+
+
+
       
+
