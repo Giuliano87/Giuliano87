@@ -8,6 +8,7 @@ def create_server_connection(host_name, user_name, user_password):
     try:
         connection = mysql.connector.connect(
             host=host_name,
+            database='mysql',
             user=user_name,
             passwd=user_password
         )
